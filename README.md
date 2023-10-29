@@ -8,7 +8,7 @@ The datas consist of EEG signals recorded on patients who where asked to think o
 For each recording, 64 electrodes are placed on the brain. The alpha, beta and gamma frequency bands are recorded on each electrode at 7 different timestamps.  
 For each frequency band, we have a 2D projection of the brain's activations on the 64 electrodes. 
 
-The datas are processed to be of shape $(Nb_patient, nb_frequency_bands, nb_time_stamps, x_axis, y_axis) = (N, 3, 7, 32, 32)$. 
+The datas are processed to be of shape $(Nb\_patient, nb\_frequency_bands, nb\_time\_stamps, x\_axis, y\_axis) = (N, 3, 7, 32, 32)$. 
 
 The datas contains \textbf{spatial, frequential and temporal} information. We tried to take into account these different types of informations when selecting and designing the right deep learning architectures.  
 
