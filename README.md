@@ -10,7 +10,7 @@ For each frequency band, we have a 2D projection of the brain's activations on t
 
 The datas are processed to be of shape (Nb patient, nb frequency bands, nb time stamps, x axis, y axis}) = (N, 3, 7, 32, 32). 
 
-The datas contains \textbf{spatial, frequential and temporal} information. We tried to take into account these different types of informations when selecting and designing the right deep learning architectures.  
+The datas contains $\textbf{spatial, frequential and temporal}$ information. We tried to take into account these different types of informations when selecting and designing the right deep learning architectures.  
 
 The goal is to predict wether the patient was asked to moove its left/right hand or foot (4 classes to predict). 
 
